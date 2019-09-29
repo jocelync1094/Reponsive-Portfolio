@@ -126,6 +126,8 @@ textarea {
         height:20px;
     }
 
-    
+    .picOfMe{
+        display:none;
+    }
     
 }
