@@ -1,0 +1,113 @@
+.logo {
+    background-color:#4aaaa5;
+    color:white;
+    padding: 15px;
+    text-align: center;
+    border-bottom:#cccccc solid 1px;
+    margin-block-end:0;
+}
+
+header {
+    background-color:#ffffff;
+    border-bottom:#cccccc solid 2px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+}
+
+.breadcrumb {
+    background-color:white;
+    margin: 20px 0;
+}
+
+a {
+    color:gray;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content:"|";
+    color:lightgray;
+}
+
+.container {
+    background-color:white;
+    max-width: 1050px;
+    border: solid #dddddd 1.5px;
+    margin: 50px 250px;
+    flex: 1 0 auto;
+    padding: 20px;
+}
+
+.text{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777777;
+    font-size: 16px;
+}
+
+.head {
+    color:#4aaaa5;
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+    font-weight:thick; 
+}
+
+body {
+    margin:0;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    background-image:url(email-pattern.png);    
+}
+
+.bg-custom {
+   background-color:#666666;
+    border-top: #4aaaa5 solid 8px;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-brand {
+    padding-top:0;
+    font-size:0.75rem;
+}
+
+.navbar {
+    justify-content:center;
+}
+
+.btn-success {
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+}
+
+.input-group>.custom-file, .input-group>.custom-select, .input-group>.form-control {
+    margin-bottom:10px;
+}
+
+textarea {
+    width:100%;
+    height:150px;
+}
+
+.btn:active {
+    background-color:lightblue;
+}
+@media screen and (max-width: 768px){
+    .container {
+        width:90%;
+        margin-left:30px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    header.breadcrumb {
+        height:20px;
+    }
+
+    img {
+        display:none;
+    }
+    
+}
